@@ -4,7 +4,17 @@ module.exports = {
             "./public/*.{html,js}"  
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'color-bg': '#fcfcfc',
+        'color-h1':'#303669'
+        
+      },
+    },
+    fontFamily: {
+      'custom': ['Montserrat', 'sans-serif'],
+  },
+
   },
   plugins: [],
 }
